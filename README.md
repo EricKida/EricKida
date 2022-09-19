@@ -13,6 +13,7 @@
  ![HTML](https://img.shields.io/badge/HTML-FF4500?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
  ![CSS](https://img.shields.io/badge/CSS-FF8C00?&style=for-the-badge&logo=css3&logoColor=white)&nbsp;
  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
+ ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
  ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)&nbsp;
  ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)&nbsp;
  
@@ -32,7 +33,6 @@
   
 ### Studying in this moment:
 ![java](https://res.cloudinary.com/practicaldev/image/fetch/s--KR6jSVNe--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/badge/Java-ED8B00%3Fstyle%3Dfor-the-badge%26logo%3Djava%26logoColor%3Dwhite)&nbsp;
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-005571?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
 
