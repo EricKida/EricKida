@@ -1,11 +1,35 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00BFFF&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00BFFF&size=35&center=true&vCenter=true&width=1200&lines=Hi!+My+Name+is+ERIC+KIDA+MENESES+CORREA;I'm+21+years+old;I+from+Brazil,+Itanhaém/SP;I+study+Analysis+and+Systems+Development+at+FATEC;Be+Welcome!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00BFFF&size=35&center=true&vCenter=true&width=1200&lines=Hi!+My+Name+is+ERIC+KIDA+MENESES+CORREA;I'm+<span id="age"></span>+years+old;I+from+Brazil,+Itanhaém/SP;I+study+Analysis+and+Systems+Development+at+FATEC;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
 <div align="center">  
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=EricKida&show_icons=true&count_private=true&hide_border=true&title_color=00BFFF&icon_color=00bfbf&text_color=00BFFF&bg_color=0d1117" alt="Eric Kida github stats" /> 
-<img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EricKida&layout=compact&hide_border=true&title_color=00BFFF&text_color00BFFF&bg_color=0d1117" />
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EricKida&layout=compact&hide_border=true&title_color=00BFFF&text_color00BFFF&bg_color=0d1117" />
 </div>
+
+<script>
+  function calcularIdade(dataNascimento) {
+    let hoje = new Date();
+    let nascimento = new Date(dataNascimento);
+    let idade = hoje.getFullYear() - nascimento.getFullYear();
+    let mesAtual = hoje.getMonth();
+    let diaAtual = hoje.getDate();
+    let mesNascimento = nascimento.getMonth();
+    let diaNascimento = nascimento.getDate();
+
+    // Se ainda não fez aniversário neste ano, subtrai 1
+    if (mesAtual < mesNascimento || (mesAtual === mesNascimento && diaAtual < diaNascimento)) {
+      idade--;
+    }
+    
+    return idade;
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    let idade = calcularIdade("2002-11-14");
+    document.getElementById("age").innerText = idade;
+  });
+</script>
 
 
 
